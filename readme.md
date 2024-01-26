@@ -33,7 +33,7 @@ Svolgimento:
 - Inserisco l'header con la location di password.php
 - Inserisco include dir dentro password.php per includere il file functions.php
 - Aggiungo session_start()
-- Inserisco il nome della funzione
+- Inserisco la funzione nell'html di password.php
 
 Milestone 4 (BONUS)
 Gestire ulteriori parametri per la password: quali caratteri usare fra numeri, lettere e simboli. Possono essere scelti singolarmente (es. solo numeri) oppure possono essere combinati fra loro (es. numeri e simboli, oppure tutti e tre insieme).
