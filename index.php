@@ -12,10 +12,8 @@
                 $randomString .= $characters[random_int(0, $charactersLength - 1)];
             }
             return $randomString;
-        };
-    
+        }; 
     }
-
 ?>
 
 <!DOCTYPE html>
@@ -30,8 +28,8 @@
     <form action="./index.php" method="GET">
         <input type="number" id="tentacles" name="psw_length" min="1" max="25" />
     </form>
-    <div>
-        <?php echo generateRandomString($_GET['psw_length']) ?>
-    </div>
+    <?php if(isset($_GET['psw_length']) && $_GET['psw_length'] != ''){ ?>
+        <div><?php echo generateRandomString($_GET['psw_length'])?></div>
+    <?php } ?>
 </body>
 </html>
