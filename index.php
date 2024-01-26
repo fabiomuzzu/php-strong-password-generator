@@ -1,3 +1,7 @@
+<?php 
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +10,9 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <!-- creo la form -->
+    <form action="./index.php" method="GET">
+        
+    </form>
 </body>
 </html>
