@@ -1,9 +1,11 @@
 <?php 
-    include __DIR__. '/functions.php';
-    
+
     if(isset($_GET['psw_length']) && $_GET['psw_length'] != ''){
         
+        session_start();
+        $_SESSION['psw_length'] = $_GET['psw_length'];
 
+        header('Location: ./password.php');
     }
 ?>
 
