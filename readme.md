@@ -13,7 +13,7 @@ Scriviamo tutto (logica e layout) in un unico file *index.php*
 Svolgimento:
 - Creo un form che con method get e action /index.php
 - Creo 1 variabile contente lettere maiuscole, minuscole, numeri e simboli
-- Creo una funzione per concatenare randomicamente le 4 variabili
+- Creo una funzione per concatenare randomicamente ciò che contenuto all'interno  della variabile
 
 Milestone 2
 Verificato il corretto funzionamento del nostro codice, spostiamo la logica in un file *functions.php* che includeremo poi nella pagina principale
