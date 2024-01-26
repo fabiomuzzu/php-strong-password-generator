@@ -1,5 +1,6 @@
 <?php 
-
+    // variabile dei characters
+    $characters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!?~@#-+.,';
 ?>
 
 <!DOCTYPE html>
@@ -12,7 +13,7 @@
 <body>
     <!-- creo la form -->
     <form action="./index.php" method="GET">
-        
+
     </form>
 </body>
 </html>
