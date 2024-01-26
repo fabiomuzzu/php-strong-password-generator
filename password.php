@@ -1,6 +1,8 @@
 <?php 
+    // uso include dir per includere il contenuto di functions.php
     include __DIR__. '/functions.php';
 
+    // faccio partire la sessione
     session_start();
 
 ?>
@@ -13,7 +15,7 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- Inserisco la funzione nell'html di password.php -->
+    <!-- Inserisco la funzione nell'html di password.php utilizzando session per poterla estrapolare-->
     <div>
         <?php echo generateRandomString($_SESSION['psw_length'])?>
     </div>
