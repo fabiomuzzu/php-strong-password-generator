@@ -1,7 +1,8 @@
 <?php 
 
+    // Funzione che mi genera una stringa di caratteri casuali tramite una variabile
     function generateRandomString($length) {
-        // variabile dei characters
+        // Variabile dei characters
         $characters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!?~@#-+.,';
 
         $charactersLength = strlen($characters);
