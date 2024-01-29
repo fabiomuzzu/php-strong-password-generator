@@ -4,7 +4,7 @@
         
         // Start della sessione
         session_start();
-        // Credo la variabile session psw_length e le assegno il valore recuperato dall'input tramite GET
+        // Creo la variabile session psw_length e le assegno il valore recuperato dall'input tramite GET
         $_SESSION['psw_length'] = $_GET['psw_length'];
         // Inoltro il dato tramite header al file password.php
         header('Location: ./password.php');
